@@ -15,8 +15,14 @@ body.dark
 {
   background: linear-gradient(135deg, #383838 70%, #000);
 }
-
+header.header {
+  display: flex;
+  justify-content: space-between;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.WeatherWidgetApp {
+  padding: 65px 80px;
 }
